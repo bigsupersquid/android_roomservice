@@ -8,8 +8,6 @@
   <project name="bigsupersquid/android_device_lge_msm7x27-common" path="device/lge/msm7x27-common" revision="cm-12.0"/>
   <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="cm-12.0"/>
   <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" revision="cm-12.0"/>
-  <project name="bigsupersquid/prebuilt_linux-x86_toolchain_arm-v6k-eabi" path="prebuilt/linux-x86/toolchain/arm-unknown-eabi-4.7" remote="github" revision="4.7.4" />
-  <project name="bigsupersquid/prebuilt_linux-x86_toolchain_arm-v6k-eabi" path="prebuilt/linux-x86/toolchain/arm-v6k-eabi-4.8" remote="github" revision="4.8.2" />
   <project name="bigsupersquid/android_kernel_lge_msm7x27-3.0.x" path="kernel/lge/msm7x27-3.0.x" remote="github" revision="thunder" />
   <project name="bigsupersquid/android_device_lge_thunderc" path="device/lge/thunderc" revision="cm-12.0" />
   <project name="bigsupersquid/android_device_lge_thunder-common" path="device/lge/thunder-common" remote="github" revision="cm-12.0"/>
