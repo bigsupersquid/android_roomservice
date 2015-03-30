@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="bigsupersquid/android_roomservice" path=".repo/local_manifests" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-  <project name="Team-Hydra/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+  <project name="bigsupersquid/android_roomservice" path=".repo/local_manifests" revision="cm-12.0" />
 
   <project name="bigsupersquid/android_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.0" />
   <project name="bigsupersquid/android_device_lge_msm7x27-common" path="device/lge/msm7x27-common" revision="cm-12.0"/>
@@ -11,24 +9,7 @@
   <project name="bigsupersquid/android_kernel_lge_msm7x27-3.0.x" path="kernel/lge/msm7x27-3.0.x" remote="github" revision="thunder" />
   <project name="bigsupersquid/android_device_lge_thunderc" path="device/lge/thunderc" revision="cm-12.0" />
   <project name="bigsupersquid/android_device_lge_thunder-common" path="device/lge/thunder-common" remote="github" revision="cm-12.0"/>
-  <remove-project name="CyanogenMod/android_device_generic_armv7-a-neon" />
-  <remove-project name="CyanogenMod/android_device_generic_mips" />
-  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
-  <remove-project name="device/generic/mini-emulator-mips" />
-  <remove-project name="device/generic/mini-emulator-x86" />
-  <remove-project name="CyanogenMod/android_external_libnfc-nci" />
-  <remove-project name="CyanogenMod/android_external_libnfc-nxp" />
-  <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
-  <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
-  <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
-  <remove-project name="CyanogenMod/android_hardware_ti_wpan" />
-  <remove-project name="CyanogenMod/android_packages_apps_CMAccount" />
-  <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
-  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-  <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
   <remove-project name="platform/packages/apps/OneTimeInitializer" />
-  <remove-project name="CyanogenMod/android_packages_apps_Stk" />
-  <remove-project name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
