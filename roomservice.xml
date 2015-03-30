@@ -1,34 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="bigsupersquid/android_roomservice" path=".repo/local_manifests" revision="cm-11.0" />
-  <remove-project name="androidarmv6/android_build" />
-  <project name="bigsupersquid/android_build" path="build" revision="cm-11.0">
-    <copyfile dest="Makefile" src="core/root.mk" />
-  </project>
-  <remove-project name="androidarmv6/android_bootable_recovery" />
-  <project name="bigsupersquid/android_bootable_recovery" path="bootable/recovery" revision="multi" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <project name="Team-Hydra/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
-  <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
-  <project name="bigsupersquid/android_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="cm-11.0" />
-  <project name="bigsupersquid/packages-inputmethods-PCKeyboard" path="packages/inputmethods/PCKeyboard" revision="cm-11.0" />
-  <remove-project name="androidarmv6/android_packages_apps_Settings" />
-  <project name="bigsupersquid/android_packages_apps_Settings" path="packages/apps/Settings" />
 
-  <project name="bigsupersquid/android_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" />
-  <project name="bigsupersquid/android_device_lge_msm7x27-common" path="device/lge/msm7x27-common" />
-  <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" />
-  <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" />
+  <project name="bigsupersquid/android_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.0" />
+  <project name="bigsupersquid/android_device_lge_msm7x27-common" path="device/lge/msm7x27-common" revision="cm-12.0"/>
+  <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="cm-12.0"/>
+  <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" revision="cm-12.0"/>
   <project name="bigsupersquid/prebuilt_linux-x86_toolchain_arm-v6k-eabi" path="prebuilt/linux-x86/toolchain/arm-unknown-eabi-4.7" remote="github" revision="4.7.4" />
   <project name="bigsupersquid/prebuilt_linux-x86_toolchain_arm-v6k-eabi" path="prebuilt/linux-x86/toolchain/arm-v6k-eabi-4.8" remote="github" revision="4.8.2" />
-  <project name="UBERUTILS/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-sm" remote="github" revision="master" />
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
   <project name="bigsupersquid/android_kernel_lge_msm7x27-3.0.x" path="kernel/lge/msm7x27-3.0.x" remote="github" revision="thunder" />
-  <project name="bigsupersquid/android_device_lge_thunderc" path="device/lge/thunderc" revision="OS2SD" />
-  <project name="bigsupersquid/android_device_lge_p500" path="device/lge/p500" remote="github" />
-  <project name="bigsupersquid/android_device_lge_thunder-common" path="device/lge/thunder-common" remote="github" />
-  <remove-project name="androidarmv6/android_art" />
+  <project name="bigsupersquid/android_device_lge_thunderc" path="device/lge/thunderc" revision="cm-12.0" />
+  <project name="bigsupersquid/android_device_lge_thunder-common" path="device/lge/thunder-common" remote="github" revision="cm-12.0"/>
   <remove-project name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <remove-project name="CyanogenMod/android_device_generic_mips" />
   <remove-project name="CyanogenMod/android_device_generic_x86" />
