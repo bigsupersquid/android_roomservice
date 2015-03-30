@@ -19,7 +19,6 @@
   <remove-project name="CyanogenMod/android_external_libnfc-nci" />
   <remove-project name="CyanogenMod/android_external_libnfc-nxp" />
   <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
-  <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
   <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
   <remove-project name="CyanogenMod/android_hardware_ti_wpan" />
