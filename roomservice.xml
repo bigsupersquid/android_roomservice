@@ -28,7 +28,6 @@
   <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
   <remove-project name="platform/packages/apps/OneTimeInitializer" />
   <remove-project name="CyanogenMod/android_packages_apps_Stk" />
-  <remove-project name="CyanogenMod/android_packages_apps_VideoEditor" />
   <remove-project name="CyanogenMod/android_packages_apps_VoicePlus" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
