@@ -13,7 +13,6 @@
   <project name="bigsupersquid/android_device_lge_thunder-common" path="device/lge/thunder-common" remote="github" revision="cm-12.0"/>
   <remove-project name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <remove-project name="CyanogenMod/android_device_generic_mips" />
-  <remove-project name="CyanogenMod/android_device_generic_x86" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-mips" />
   <remove-project name="device/generic/mini-emulator-x86" />
