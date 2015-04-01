@@ -1,4 +1,5 @@
-roomservice.xml for experimental cm-11 for thunderc
+roomservice.xml for experimental cm-12 for thunderc
+be aware this only boots to adb then art loops.
 
 to build:
 
@@ -9,7 +10,7 @@ directions here: https://github.com/androidarmv6/android
 cd to your androidarmv6 directory, then
 
 
-git clone https://github.com/bigsupersquid/android_roomservice.git .repo/local_manifests/ -b cm-11.0
+git clone https://github.com/bigsupersquid/android_roomservice.git .repo/local_manifests/ -b cm-12.0
 
 
 then
