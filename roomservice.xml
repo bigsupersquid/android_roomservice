@@ -2,7 +2,7 @@
 <manifest>
   <project name="bigsupersquid/android_roomservice" path=".repo/local_manifests" revision="cm-12.0" />
 
-  <project name="bigsupersquid/android_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.0" />
+  <project name="bigsupersquid/android_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" />
   <project name="bigsupersquid/android_device_lge_msm7x27-common" path="device/lge/msm7x27-common" revision="cm-12.0"/>
   <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="cm-12.0"/>
   <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" revision="cm-12.0"/>
