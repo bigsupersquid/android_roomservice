@@ -82,5 +82,5 @@
 -->
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 <!--  <remove-project name="platform/prebuilts/python/linux-x86/2.7.5" />
-  <remove-project name="platform/prebuilts/sdk" />
+  <remove-project name="platform/prebuilts/sdk" /> -->
 </manifest>
